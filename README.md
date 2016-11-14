@@ -26,19 +26,25 @@ did in IE7.
 
 This is useful when the website does not support IE8+. By default, IE11 renders
 the following websites in Compatability View: 
+
 1. All intranet websites
 2. Websites in users' website list (an editable local list).
-3. Websites in microsoft website List (a remote list maintained by Microsoft).
+3. Websites in Microsoft website List (a remote list maintained by Microsoft).
 
-To open the Compatibility View: 
+To render a website in Compatibility View: 
 
-1. Press <kbd>alt</kbd>+<kbd>T</kbd> to bring up the tools menu.
+1. Press <kbd>Alt</kbd>+<kbd>T</kbd> to bring up the tools menu.
 
 <img src="images/alt-t.png" alt="alt-t" width="400" />
 
-2. Press <kbd>alt</kbd>+<kbd>B</kbd> to open the Compatibility Views dialog.
+2. Press <kbd>Alt</kbd>+<kbd>B</kbd> to open the Compatibility Views dialog.
 
 <img src="images/alt-t-b.png" alt="alt-t-b" width="400" />
+
+3. Type the domain name of the website and click "Add" to add it to the user's
+   list.
+
+4. Restart browser window.
 
 X-UA-Compatibile Meta Tag
 --------------------------------------------------------
@@ -107,7 +113,7 @@ In Windows 10 Professional or Enterprise Edition, it's possible to "remember" th
 settings. This feature is called the "Enterprise Mode and the Website List".
 
 If the Enterprise Mode is enabled, a list of URLs and the corresponding IE
-versions is maintainced in a xml file and IE will render the web pages according
+versions is maintained in a xml file and IE will render the web pages according
 to the xml file.
 
 To enable the Enterprise Mode:
@@ -129,8 +135,7 @@ To enable the Enterprise Mode:
 
 5. Download and install Enterprise Mode Site List Manager from [here ...][6] 
 
-6. Edit site list and IE versions with list manager and saves the list to the
-   xml file.
+6. Edit site list and IE versions with list manager and save the list to the xml file.
 
 <img src="images/website-manager.png" alt="enterprise mode website list manager" width="800" />
 
@@ -156,7 +161,7 @@ administrator user to run Edge.
 
 ### Fix Corrupted User Profile ####
 For unknown reasons, some users who upgraded to Windows 10 will have troubles
-with creating new users. The issue is related to the corrupted Default profile,
+with creating new user accounts. The issue is related to the corrupted Default profile,
 but the root cause is not clear.
 
 To fix the corrupted profile:
@@ -180,11 +185,11 @@ corrupted profile.
 
 1. Press <kbd>Windows</kbd>+<kbd>R</kbd> to bring up the run dialog.
 
-2. Type regedit and press <kbd>Enter</kbd> start Registry Editor.
+2. Type ``regedit`` and press <kbd>Enter</kbd> to start Registry Editor.
 
 3. Navigate to ``HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System`` 
 
-4. Under ``System`` folder, create a DWORD entry named ``FilterAdministratorToken``, if it does not exists, and set its value to ``1``.
+4. Under ``System`` folder, create a DWORD entry named ``FilterAdministratorToken``, if it does not exist, and set its value to ``1``.
 
 5. Navigate to ``HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\UIPI`` 
 
@@ -196,7 +201,7 @@ corrupted profile.
 
 1. Press <kbd>Windows</kbd>+<kbd>R</kbd> to bring up the run dialog.
 
-2. Type secpol.msc and press <kbd>Enter</kbd> to start the Local Security Policy Manager.
+2. Type ``secpol.msc`` and press <kbd>Enter</kbd> to start the Local Security Policy Manager.
 
 3. Navigate to ``Security Settings > Local Policies > Security Options``
 
