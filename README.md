@@ -33,9 +33,11 @@ the following websites in Compatability View:
 To open the Compatibility View: 
 
 1. Press <kbd>alt</kbd>+<kbd>T</kbd> to bring up the tools menu.
+
 <img src="images/alt-t.png" alt="alt-t" width="400" />
 
 2. Press <kbd>alt</kbd>+<kbd>B</kbd> to open the Compatibility Views dialog.
+
 <img src="images/alt-t-b.png" alt="alt-t-b" width="400" />
 
 X-UA-Compatibile Meta Tag
@@ -81,9 +83,11 @@ Fortunately, you can manually specify the IE version for rendering web pages
 with the Developer Tool / Emulation Tool:
 
 1. Press <kbd>F12</kbd> to bring up the Developer Tool.
+
 <img src="images/f12.png" alt="f12" width="400" />
 
 2. Press <kbd>Ctrl</kbd>+<kbd>7</kbd> to switch to the Emulation Tool Tab.
+
 <img src="images/ctrl-7.png" alt="ctrl-7" width="400" />
 
 3. Select the Document Mode (IE Version) from the dropdown list to render
@@ -113,18 +117,21 @@ To enable the Enterprise Mode:
 2. In the run dialog, type ``secpol.msc`` and press <kbd>Enter</kbd> to start Local Group Policy Editor.
 
 3. Goto the ``Administrative Templates\Windows Components\Internet Explorer\Use the Enterprise Mode IE website list setting.`` 
+
 <img src="images/enterprise-mode.png" alt="enterprise mode" width="800" />
 
 4. Enable the Enterprise Mode and specify the URL of the xml file:
    * Http Location example:  ``http://localhost:8080/sites.xml``
    * Local Network example: ``\\network\shares\sites.xml``
    * Local File example: ``file:///c:\\Users\\<user>\\Documents\\sites.xml``
+
 <img src="images/enterprise-mode-details.png" alt="enterprise mode details" width="400" />
 
 5. Download and install Enterprise Mode Site List Manager from [here ...][6] 
 
 6. Edit site list and IE versions with list manager and saves the list to the
    xml file.
+
 <img src="images/website-manager.png" alt="enterprise mode website list manager" width="800" />
 
 7. Restart IE and wait ``65`` seconds for IE to pick up the site list.
@@ -192,6 +199,7 @@ corrupted profile.
 2. Type secpol.msc and press <kbd>Enter</kbd> to start the Local Security Policy Manager.
 
 3. Navigate to ``Security Settings > Local Policies > Security Options``
+
 <img src="images/edge-admin-user.png" alt="Local Security Policy Manager" width="800" />
 
 4. Click ``User Account Control Admin Approval Mode for the Build-in Administrator account`` and enable it.
