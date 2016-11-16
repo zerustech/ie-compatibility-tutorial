@@ -35,7 +35,7 @@ To render a website in Compatibility View:
 
 1. Press <kbd>Alt</kbd>+<kbd>T</kbd> to bring up the tools menu.
 
-<img src="images/alt-t.png" alt="alt-t" width="400" />
+1. <img src="images/alt-t.png" alt="alt-t" width="400" />
 
 2. Press <kbd>Alt</kbd>+<kbd>B</kbd> to open the Compatibility Views dialog.
 
