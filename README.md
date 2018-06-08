@@ -17,6 +17,9 @@ compatibilities between releases;
 In this tutorial, we will discuss the latter for IE11 on Windows 10, which is
 the latest release at the time of documentation.
 
+# Project Moved to GitLab
+This project has been moved to [GitLab][1].
+
 # References
 * [zerustech/ie-compatibility-tutorial][1]
 
