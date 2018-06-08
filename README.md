@@ -23,4 +23,4 @@ This project has been moved to [GitLab][1].
 # References
 * [zerustech/ie-compatibility-tutorial][1]
 
-[1]: https://gitlib.com/zerustech/ie-compatibility-tutorial "zerustech/ie-compatibility-tutorial"
+[1]: https://gitlab.com/zerustech/ie-compatibility-tutorial "zerustech/ie-compatibility-tutorial"
